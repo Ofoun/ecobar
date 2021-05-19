@@ -7,18 +7,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
  
-   @RequestMapping(value = { "/", "/iterfahringen_de" })	
+   @RequestMapping(value = { "/", "/ecobar_de" })
     public String staticResource(Model model) {
         return "index";
     }
    
-   @RequestMapping(value = {"/iterfahringen_fr" })	
+   @RequestMapping(value = {"/ecobar_fr" })
    public String staticResource1(Model model) {
-       return "iterfahringen_fr";
+       return "ecobar_fr";
    }
    
-   @RequestMapping(value = {"/iterfahringen_en" })	
+   @RequestMapping(value = {"/ecobar_en" })
    public String staticResource11(Model model) {
-       return "iterfahringen_en";
+       return "ecobar_en";
    }
 }
