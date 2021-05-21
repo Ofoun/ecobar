@@ -1,6 +1,6 @@
-com\ofoun\iterfahrungen\ItErfahrungenApplication.class
-com\ofoun\iterfahrungen\controller\MainController2.class
-com\ofoun\iterfahrungen\controller\MainController.class
-com\ofoun\iterfahrungen\resolver\UrlLocaleResolver.class
-com\ofoun\iterfahrungen\config\WebMvcConfig.class
-com\ofoun\iterfahrungen\interceptor\UrlLocaleInterceptor.class
+com\ofoun\ecobar\EcobarApplication.class
+com\ofoun\ecobar\controller\MainController.class
+com\ofoun\ecobar\resolver\UrlLocaleResolver.class
+com\ofoun\ecobar\config\WebMvcConfig.class
+com\ofoun\ecobar\interceptor\UrlLocaleInterceptor.class
+com\ofoun\ecobar\controller\MainController2.class

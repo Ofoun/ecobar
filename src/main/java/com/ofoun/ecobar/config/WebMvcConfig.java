@@ -72,7 +72,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
    @Bean(name = "messageSource")
    public MessageSource messageSource()  {
-       ReloadableResourceBundleMessageSource messageResource= new ReloadableResourceBundleMessageSource();         
+       ReloadableResourceBundleMessageSource messageResource= new ReloadableResourceBundleMessageSource();
        // For example: i18n/messages_en.properties
        // For example: i18n/messages_fr.properties
        messageResource.setBasename("classpath:langues/messages");
@@ -85,6 +85,5 @@ public class WebMvcConfig implements WebMvcConfigurer {
        localeInterceptor.setParamName("lang");
        registry.addInterceptor(localeInterceptor).addPathPatterns("/*");
    }
-	
-	
+
 }
